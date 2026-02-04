@@ -41,11 +41,11 @@ function addStar() {
 
 Array(200).fill().forEach(addStar);
 
-const spaceTexture = new THREE.TextureLoader().load('/space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('space.jpg');
 scene.background = spaceTexture;
 
 const video = document.createElement('video');
-video.src = '/serii.mp4';
+video.src = 'serii.mp4';
 video.loop = true;
 video.muted = true;
 video.play();
